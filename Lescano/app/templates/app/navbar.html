@@ -1,6 +1,9 @@
   <header>
       {% block content %}
-      <a href="{% url 'home' %}">Home</a>
-      <a href="{% url 'about' %}">About</a>
+      <nav class="navbar">
+          <a href="{% url 'home' %}">Home</a>
+          <a href="{% url 'about' %}">About</a>
+          <a href="{% url 'blog' %}">blog</a>
+      </nav>
        {% endblock content %}
   </header>
